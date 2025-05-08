@@ -21,11 +21,5 @@ done
 # Run the build command
 npm run build
 
-# Ensure the build output directory exists
-mkdir -p dist
-
-# Copy the build output to the dist directory
-cp -r dist/* dist/
-
 # Return to root
 cd ../..

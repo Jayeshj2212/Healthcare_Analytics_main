@@ -13,7 +13,7 @@
       "src": "Frontend/my-react-app-manual/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "Frontend/my-react-app-manual/dist"
+        "distDir": "Frontend/my-react-app-manual/dist/"
       }
     }
   ],

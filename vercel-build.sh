@@ -5,6 +5,9 @@ cd Backend
 pip install -r requirements.txt
 cd ..
 
+# Remove existing node_modules and package-lock.json to resolve integrity issues
+rm -rf package-lock.json node_modules
+
 # Install frontend dependencies and build
 cd Frontend/my-react-app-manual
 

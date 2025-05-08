@@ -14,7 +14,7 @@ git add .
 git commit -m "$1"
 
 # Push the changes to the remote repository
-git push origin health_dev
+git push origin main
 
 # Print a success message
 echo "Changes have been successfully pushed to the repository."
